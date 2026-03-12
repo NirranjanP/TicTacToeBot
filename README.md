@@ -1,4 +1,5 @@
 Tic-Tac-Toe AI
+
 A high-performance Tic-Tac-Toe engine written in C++ that uses Bitboards for state representation and Minimax with Alpha-Beta Pruning 
 and a Transposition Table for an AI that always plays the most optimal moves.
 
@@ -25,7 +26,11 @@ Run:
 ./tictactoe
 
 How to Play
+
 When prompted, choose your side: X or O.
+
 Input your move using row and column indices (0, 1, or 2).
+
 Example: 0 0 for the top-left corner.
+
 The AI will instantly calculate the best response and play the move on the board.
