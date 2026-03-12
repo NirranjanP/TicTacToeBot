@@ -151,7 +151,7 @@ void makeMove(uint16_t &X, uint16_t &O, char player)
             {
                 rand_count++;
                 int r = rand() % rand_count;
-                if (r == 1)
+                if (r == 0)
                     bestmove = move;
             }
             empty = empty ^ move;
@@ -174,7 +174,7 @@ void makeMove(uint16_t &X, uint16_t &O, char player)
             {
                 rand_count++;
                 int r = rand() % rand_count;
-                if (r == 1)
+                if (r == 0)
                     bestmove = move;
             }
             empty = empty ^ move;
